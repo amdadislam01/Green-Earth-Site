@@ -125,35 +125,13 @@
         <!-- Cart -->
         <aside class="md:col-span-2 bg-white p-6 rounded-lg shadow h-max">
           <h2 class="text-xl font-bold mb-4">Your Cart</h2>
-          <ul class="space-y-3 mb-2">
+          <ul id="cart-items" class="space-y-3 mb-2">
             <!-- Cart Items -->
-            <li
-              class="bg-green-50 rounded-lg p-3 flex justify-between items-center"
-            >
-              <div>
-                <p class="font-semibold">Mango Tree</p>
-                <p class="text-gray-600 text-sm">৳500 × 1</p>
-              </div>
-              <button class="text-gray-500 hover:text-red-600 text-lg">
-                ✕
-              </button>
-            </li>
-            <li
-              class="bg-green-50 rounded-lg p-3 flex justify-between items-center"
-            >
-              <div>
-                <p class="font-semibold">Guava Tree</p>
-                <p class="text-gray-600 text-sm">৳500 × 1</p>
-              </div>
-              <button class="text-gray-500 hover:text-red-600 text-lg">
-                ✕
-              </button>
-            </li>
           </ul>
           <hr class="text-gray-300" />
           <div class="mt-4 flex justify-between font-semibold text-lg">
             <span>Total:</span>
-            <span>৳1000</span>
+            <span id="cart-total"></span>
           </div>
         </aside>
       </div>
