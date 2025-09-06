@@ -86,5 +86,110 @@
         class="absolute right-0 top-1/2 -translate-y-1/2 hidden md:block"
       />
     </section>
+
+    <!-- Main Section -->
+    <section class="py-12 bg-[#f0fdf4]">
+      <div
+        class="px-6 max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-6"
+      >
+        <!-- Categories -->
+        <aside class="md:col-span-2 p-6 h-max">
+          <h2 class="text-xl font-bold mb-4">Categories</h2>
+          <ul id="category" class="space-y-3">
+            <!-- JS generated categories -->
+          </ul>
+        </aside>
+
+        <!-- Products -->
+        <main class="md:col-span-8">
+          <h2 class="text-2xl text-center font-bold mb-6">Choose Your Trees</h2>
+          <div
+            id="card-container"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            <!-- JS generated cards -->
+          </div>
+        </main>
+
+        <!-- Cart -->
+        <aside class="md:col-span-2 bg-white p-6 rounded-lg shadow h-max">
+          <h2 class="text-xl font-bold mb-4">Your Cart</h2>
+          <ul class="space-y-3 mb-2">
+            <!-- Cart Items -->
+            <li
+              class="bg-green-50 rounded-lg p-3 flex justify-between items-center"
+            >
+              <div>
+                <p class="font-semibold">Mango Tree</p>
+                <p class="text-gray-600 text-sm">৳500 × 1</p>
+              </div>
+              <button class="text-gray-500 hover:text-red-600 text-lg">
+                ✕
+              </button>
+            </li>
+            <li
+              class="bg-green-50 rounded-lg p-3 flex justify-between items-center"
+            >
+              <div>
+                <p class="font-semibold">Guava Tree</p>
+                <p class="text-gray-600 text-sm">৳500 × 1</p>
+              </div>
+              <button class="text-gray-500 hover:text-red-600 text-lg">
+                ✕
+              </button>
+            </li>
+          </ul>
+          <hr class="text-gray-300" />
+          <div class="mt-4 flex justify-between font-semibold text-lg">
+            <span>Total:</span>
+            <span>৳1000</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-[#f0fdf4] py-10 font-semibold">
+      <h1 class="text-3xl text-center py-10">About the Campaign</h1>
+      <div
+        class="max-w-7xl mx-auto gap-10 flex flex-col md:flex-row justify-center items-center px-6"
+      >
+        <img src="assets/about.png" alt="" class="w-full md:w-1/2 rounded-lg" />
+        <div class="md:w-1/2 text-center md:text-left">
+          <p class="text-sm text-gray-600 pb-2">
+            Green Earth is a global tree plantation initiative dedicated to
+            fighting climate change. Since our start, we’ve planted over 500,000
+            trees worldwide. By joining our campaign, you help restore forests,
+            create habitats for wildlife, and combat global warming.
+          </p>
+          <ul class="list-disc list-inside text-sm text-gray-600 space-y-1">
+            <li>Restoration of natural habitats</li>
+            <li>Improvement of air quality</li>
+            <li>Support for local communities</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Impact -->
+    <section class="bg-[#cff0dc] py-16">
+      <div class="max-w-7xl mx-auto px-6">
+        <h3 class="text-center text-2xl font-semibold mb-10">Our Impact</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow p-8 text-center">
+            <h1 class="text-4xl font-semibold text-green-700">500K+</h1>
+            <p class="text-gray-600 mt-2">Trees Planted</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-8 text-center">
+            <h1 class="text-4xl font-semibold text-green-700">120+</h1>
+            <p class="text-gray-600 mt-2">Communities Involved</p>
+          </div>
+          <div class="bg-white rounded-lg shadow p-8 text-center">
+            <h1 class="text-4xl font-semibold text-green-700">30+</h1>
+            <p class="text-gray-600 mt-2">Countries Reached</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
