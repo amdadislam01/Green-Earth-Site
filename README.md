@@ -49,7 +49,7 @@ Benefits:
 
 ---
 
-## 4. What are arrow functions in ES6?
+## 4. How does destructuring assignment work in ES6?
 
 Destructuring allows extracting values from arrays or objects directly into variables.
 
@@ -64,7 +64,7 @@ console.log(name, age);
 
 ---
 
-## 5. How does destructuring assignment work in ES6?
+## 5. Explain template literals in ES6. How are they different from string concatenation?
 
 Template literals are defined using backticks (`` ` ``).  
 They allow embedding variables and expressions inside a string using `${}` and support multi-line strings.
